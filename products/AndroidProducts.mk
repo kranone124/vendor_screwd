@@ -31,8 +31,8 @@ endif
 ifeq (screwd_cheeseburger,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_cheeseburger.mk
 endif
-ifeq (screwd_oneplus3,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_oneplus3.mk
+ifeq (screwd_axon7,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_axon7.mk
 endif
 ifeq (screwd_dumpling,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_dumpling.mk
